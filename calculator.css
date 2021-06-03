@@ -107,29 +107,34 @@ input[type=text] {
 @media screen and (max-width: 635px) and (min-width:561px) {
     .container{
        width: 46%;
+        margin-top: 50px !important;
     }
 }
 
 @media screen and (max-width: 560px) and (min-width:486px) {
     .container{
        width: 50%;
+        margin-top: 50px !important;
     }
 }
 
 @media screen and (max-width: 485px) and (min-width:300px) {
     .container{
        width: 60%;
+        margin-top: 50px !important;
     }
 }
 
 @media screen and (max-width: 485px) and (min-width:391px) {
     .container{
        width: 65%;
+        margin-top: 50px !important;
     }
 }
 
 @media screen and (max-width: 390px) {
     .container{
        width: 75%;
+        margin-top: 50px !important;
     }
 }
