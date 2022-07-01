@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link type="text/css" rel="stylesheet" href="calculator.css">
+    <link type="image" rel="icon" href="images/calculator iphone.png">
+
+</head>
+<body>
+    <div class="container">
+        <input type="text" name="result" id="displayvalue" disabled>
+        <div class="key-container">
+            <button type="button" name="clear" value="C" class="first-color">AC</button>
+            <button type="button" name="square root" class="first-color">√</button>
+            <button type="button" name="square" value="" class="first-color">x<sup>2</sup></button>
+            <button type="button" name="divide" value="/" class="orange-color">÷</button>
+            <button type="button" name="seven" value="7" class="second-color" onclick="calculator.result.value += '7'">7</button>
+            <button type="button" name="eight" value="8" class="second-color">8</button>
+            <button type="button" name="Nine" value="9" class="second-color">9</button>
+            <button type="button" name="multiply" value="*" class="orange-color">x</button>
+            <button type="button" name="four" value="4" class="second-color">4</button>
+            <button type="button" name="five" value="5" class="second-color">5</button>
+            <button type="button" name="six" value="6" class="second-color">6</button>
+            <button type="button" name="subtraction" value="-" class="orange-color">-</button>
+            <button type="button" name="one" value="1" class="second-color">1</button>
+            <button type="button" name="two" value="2" class="second-color">2</button>
+            <button type="button" name="three" value="3" class="second-color">3</button>
+            <button type="button" name="addition" value="+" class="orange-color">+</button>
+            <button type="button" name="zero" value="0" id="zero-button-div" class="second-color">0</button>
+            <button type="button" name="dot" value="." class="second-color">.</button>
+            <button type="button" name="equalto" value="=" id="equal-to-button" class="orange-color">=</button>
+        </div>
+    </div> 
+    <p><span>Designed By:</span> Moroundiya ©  </p>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
